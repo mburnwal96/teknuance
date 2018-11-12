@@ -17,11 +17,9 @@ class App extends Component {
       modalName : '',
       modalId : '',
       modalDescription : '',
-      addPeopleEachData :{
         name :'',
         id : '',
         Description : ''
-      }
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleCheckbox = this.handleCheckbox.bind(this);
